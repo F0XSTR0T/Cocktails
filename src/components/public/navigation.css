@@ -2,6 +2,11 @@
   list-style: none;
   padding: 0%;
 }
+.navigation li {
+  display: flex;
+  justify-content: space-between;
+  padding: .5em;
+}
 .navigation li a {
   font-size: 1.2em;
   margin: auto 1em;
@@ -10,6 +15,7 @@
   color: #ff8864;
 }
 .navigation {
+  max-width: 600px;
+  margin: auto;
   border: 2px solid #ff8864;
-  margin: 0, auto;
 }
