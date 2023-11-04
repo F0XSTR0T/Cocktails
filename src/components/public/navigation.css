@@ -1,0 +1,15 @@
+.navigation ul {
+  list-style: none;
+  padding: 0%;
+}
+.navigation li a {
+  font-size: 1.2em;
+  margin: auto 1em;
+}
+.navigation li a:hover {
+  color: #ff8864;
+}
+.navigation {
+  border: 2px solid #ff8864;
+  margin: 0, auto;
+}
